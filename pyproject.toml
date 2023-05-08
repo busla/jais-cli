@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jais-search"
-version = "0.1.1"
+version = "0.1.2"
 repository = "https://github.com/busla/jais-cli"
 description = ""
 authors = ["Jón Levy <jon.levy@pm.me>"]
