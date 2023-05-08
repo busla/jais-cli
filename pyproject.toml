@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "jais-search"
+version = "0.1.1"
+description = ""
+authors = ["Jón Levy <jon.levy@pm.me>"]
+readme = "README.md"
+packages = [
+    { include = "jais" },
+]
+
+[tool.poetry.scripts]
+jais = "jais.main:app"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.12"
+typer = {extras = ["all"], version = "^0.9.0"}
+httpx = "^0.24.0"
+pydantic = "^1.10.7"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
