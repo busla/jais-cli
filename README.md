@@ -19,14 +19,22 @@ export JAIS_API_KEY=your-token
 Alternatively you can always pass it as an argument to each command, but that's just boring
 
 ```bash
-jais search --token your-token -n "some company name"
+jais search --token your-token -n "Code"
 ```
+
+The token will be inferred from your environment
+```bash
+jais search -n "Code"
+```
+
+![image](https://user-images.githubusercontent.com/3162968/236763732-5f8b8ba4-3541-46c6-aff4-93272f2ae06f.png)
 
 Only one command is available, that is `search`, but comes with multiple search filter options.
 
 ```bash
 jais search --help
 ```
+![image](https://user-images.githubusercontent.com/3162968/236764546-714e9f32-f97e-477b-9230-e37ee91e0747.png)
 
 ### Search examples
 
